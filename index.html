@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP Integrada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📍 Localizador de Endereço</h1>
+        <p class="subtitle">Consumo de API Pública</p>
+        
+        <div class="search-box">
+            <input type="text" id="cepInput" placeholder="Digite o CEP (Ex: 01001000)" maxlength="8">
+            <button id="buscarBtn">Buscar</button>
+        </div>
+
+        <div id="errorMessage" class="error-message hidden"></div>
+
+        <div id="resultBox" class="result-box hidden">
+            <h3>Endereço Encontrado:</h3>
+            <p><strong>Logradouro:</strong> <span id="logradouro">-</span></p>
+            <p><strong>Bairro:</strong> <span id="bairro">-</span></p>
+            <p><strong>Cidade:</strong> <span id="cidade">-</span></p>
+            <p><strong>Estado:</strong> <span id="estado">-</span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
