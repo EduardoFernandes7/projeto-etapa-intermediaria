@@ -3,7 +3,7 @@
 Aplicaçando conceitos de desenvolvimento profissional, consumo de APIs REST, testes de integração e deploy contínuo.
 
 ## 🚀 Link da Aplicação (Deploy)
-👉 **[CLIQUE AQUI PARA ACESSAR A APLICAÇÃO VIVA](https://github.com/EduardoFernandes7/projeto-etapa-intermediaria)**
+👉 **[CLIQUE AQUI PARA ACESSAR A APLICAÇÃO VIVA](https://eduardofernandes7.github.io/projeto-etapa-intermediaria/)**
 
 *(Substitua "SEU_USUARIO" pelo seu nome de usuário do GitHub no link acima)*
 
